@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, FlatList, TouchableOpacity } from "react-native";
 import { InformacoesUsuario } from "../../componentes/InformacoesUsuario";
+import { InformacoesUsuarioShimmerEffect } from "../../componentes/InformacoesUsuarioShimmerEffect";
 import { CardConsulta } from "../../componentes/CardConsulta";
 import { TelaDeFundo } from "../../componentes/TelaDeFundo";
 import soniaFoto from "../../assets/sonia.png";
@@ -20,11 +21,15 @@ export default function Principal({ navigation }) {
   return (
     <TelaDeFundo>
       <View style={styles.container}>
-        <InformacoesUsuario
-          nome="Olá Sônia"
-          detalhes="Mais 4 consultas hoje"
-          foto={soniaFoto}
-        />
+        {!loading ? (
+          <InformacoesUsuario
+            nome="Olá Sônia"
+            detalhes="Mais 4 consultas hoje"
+            foto={soniaFoto}
+          />
+        ) : (
+          <InformacoesUsuarioShimmerEffect />
+        )}
 
         <Text style={styles.texto}>Hoje</Text>
 
