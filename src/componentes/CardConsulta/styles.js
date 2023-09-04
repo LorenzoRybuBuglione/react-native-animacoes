@@ -32,7 +32,7 @@ export default StyleSheet.create({
   },
   nome: {
     fontSize: 22,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "700",
     color: "#464646",
   },
@@ -42,7 +42,7 @@ export default StyleSheet.create({
   },
   consultas: {
     fontSize: 14,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "400",
     color: "#A3A3A3",
     marginLeft: 10,
@@ -54,7 +54,7 @@ export default StyleSheet.create({
   },
   texto: {
     fontSize: 13,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "500",
     color: "#464646",
   },
@@ -74,7 +74,7 @@ export default StyleSheet.create({
   },
   botaoTexto: {
     fontSize: 14,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "500",
     color: "#464646",
   },

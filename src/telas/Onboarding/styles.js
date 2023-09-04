@@ -32,12 +32,12 @@ export default StyleSheet.create({
   },
   titulo: {
     fontWeight: "700",
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontSize: 24,
     color: '#464646',
   },
   texto: {
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontSize: 16,
     color: '#A3A3A3',
     marginTop: 10,
@@ -53,7 +53,7 @@ export default StyleSheet.create({
   },
   botaoTexto: {
     fontWeight: "700",
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontSize: 16,
     color: '#FFFFFF',
   }

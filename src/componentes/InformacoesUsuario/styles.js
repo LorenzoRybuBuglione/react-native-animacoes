@@ -18,13 +18,13 @@ export default StyleSheet.create({
   },
   nome: {
     fontSize: 22,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "700",
     color: "#464646",
   },
   consultas: {
     fontSize: 14,
-    fontFamily: "Roboto",
+    // fontFamily: "Roboto",
     fontWeight: "500",
     color: "#6a6a6a",
   },
